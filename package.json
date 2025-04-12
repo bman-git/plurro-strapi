@@ -9,17 +9,17 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/strapi": "^4.17.0",
-    "@strapi/plugin-users-permissions": "^4.17.0",
-    "@strapi/plugin-i18n": "^4.17.0",
-    "@strapi/plugin-content-manager": "^4.17.0",
-    "@strapi/plugin-content-type-builder": "^4.17.0",
-    "@strapi/plugin-upload": "^4.17.0",
+    "@strapi/strapi": "^4.18.0",
+    "@strapi/plugin-users-permissions": "^4.18.0",
+    "@strapi/plugin-i18n": "^4.18.0",
+    "@strapi/plugin-content-type-builder": "^4.18.0",
+    "@strapi/plugin-content-manager": "^4.18.0",
+    "@strapi/plugin-upload": "^4.18.0",
     "pg": "^8.10.0"
   },
   "engines": {
-    "node": ">=18.0.0 <=18.x",
-    "npm": ">=8.0.0"
+    "node": ">=16.0.0 <=18.x",
+    "npm": ">=7.0.0"
   },
   "license": "MIT"
 }
