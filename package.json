@@ -1,32 +1,25 @@
 {
-  "name": "@strapi/template-ecommerce",
+  "name": "plurro-backend",
   "version": "1.0.0",
-  "description": "Strapi ecommerce template",
-  "keywords": [
-    "strapi",
-    "template",
-    "ecommerce"
-  ],
-  "homepage": "https://github.com/strapi/starters-and-templates#readme",
-  "bugs": {
-    "url": "https://github.com/strapi/starters-and-templates/issues"
+  "description": "Strapi v4 backend for Plurro e-commerce site",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/strapi/starters-and-templates.git"
+  "dependencies": {
+    "@strapi/strapi": "^4.17.0",
+    "@strapi/plugin-users-permissions": "^4.17.0",
+    "@strapi/plugin-i18n": "^4.17.0",
+    "@strapi/plugin-content-manager": "^4.17.0",
+    "@strapi/plugin-content-type-builder": "^4.17.0",
+    "@strapi/plugin-upload": "^4.17.0",
+    "pg": "^8.10.0"
   },
-  "license": "MIT",
-  "author": {
-    "name": "Strapi team",
-    "email": "hi@strapi.io",
-    "url": "https://strapi.io"
+  "engines": {
+    "node": ">=18.0.0 <=18.x",
+    "npm": ">=8.0.0"
   },
-  "maintainers": [
-    {
-      "name": "Strapi team",
-      "email": "hi@strapi.io",
-      "url": "https://strapi.io"
-    }
-  ],
-  "gitHead": "d6d5bd264d1df0a0f23b5234d84348f8d78882e3"
+  "license": "MIT"
 }
